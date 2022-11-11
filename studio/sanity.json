@@ -1,11 +1,11 @@
 {
   "root": true,
-  "api": {
-    "projectId": "wjp2sklu",
-    "dataset": "production"
-  },
   "project": {
-    "name": "brown-seal"
+    "name": "opensea"
+  },
+  "api": {
+    "projectId": "j2h7dlc3",
+    "dataset": "production"
   },
   "plugins": [
     "@sanity/base",
@@ -24,10 +24,6 @@
     {
       "name": "part:@sanity/base/schema",
       "path": "./schemas/schema"
-    },
-    {
-      "implements": "part:@sanity/base/root",
-      "path": "plugins/sanity-plugin-tutorial/CustomDefaultLayout"
     }
   ]
 }
