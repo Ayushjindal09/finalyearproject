@@ -1,11 +1,11 @@
 {
   "root": true,
-  "project": {
-    "name": "opensea"
-  },
   "api": {
     "projectId": "j2h7dlc3",
     "dataset": "production"
+  },
+  "project": {
+    "name": "opensea"
   },
   "plugins": [
     "@sanity/base",

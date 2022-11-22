@@ -1,5 +1,3 @@
-// import Image from "next/image";
-// import styles from "../styles/Home.module.css";
 import Head from "next/head";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
@@ -14,6 +12,7 @@ const style = {
   button: `border border-[#282b2f] bg-[#2081e2] p-[0.8rem] text-xl font-semibold rounded-lg cursor-pointer text-black`,
   details: `text-lg text-center text=[#282b2f] font-semibold mt-4`,
 };
+
 export default function Home() {
   const { address, connectWallet } = useWeb3();
 
@@ -62,7 +61,7 @@ export default function Home() {
             Connect Wallet
           </button>
           <div className={style.details}>
-            You need Chrome to be
+            You need chrome to be
             <br /> able to run this app.
           </div>
         </div>
